@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mithilesh Kumar | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add fading text/doodles related to CSE */
+        body::before {
+            content: "Code AI Tech Data ML";
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            font-size: 60px;
+            color: rgba(128, 128, 128, 0.1);
+            z-index: -1;
+        }
+        /* Customize the profile picture */
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <header class="bg-purple-800 text-white p-5 relative">
+        <div class="container mx-auto flex items-center">
+            <!-- Profile Picture and Name Section -->
+            <img src="WhatsApp Image 2024-08-31 at 19.47.58_8d6df614.jpg" alt="Mithilesh Kumar" class="profile-img mr-4">
+            <div>
+                <h1 class="text-3xl font-bold">Mithilesh Kumar</h1>
+                <p>Final Year B.Tech CSE Student</p>
+                <a href="mailto:ms0614659@gmail.com" class="underline">ms0614659@gmail.com</a> |
+                <a href="https://www.linkedin.com/in/mithilesh0307" class="underline">LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Rest of the sections remain the same -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-semibold mb-4 text-purple-800">Education</h2>
+        <ul class="list-disc list-inside bg-purple-100 p-5 shadow-md rounded-lg">
+            <li>Graphic Era Hill University (2021 - Present) - B.Tech in Computer Science and Engineering, Dehradun</li>
+            <li>Himalayan International School (2020) - Senior Secondary Education, Patna</li>
+            <li>Chapra Central School (2018) - Secondary Education, Chapra</li>
+        </ul>
+    </section>
+
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-semibold mb-4 text-purple-800">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- AI-Driven Image Generation Project -->
+            <div class="bg-purple-100 p-5 shadow-md rounded-lg">
+                <h3 class="text-xl font-semibold text-purple-800">AI-Driven Image Generation with Stable Diffusion</h3>
+                <p>
+                    • Engineered a text-to-image application utilizing Stable Diffusion from Hugging Face's Diffusers library.<br>
+                    • Focused on converting text prompts into images by setting up a diffusion pipeline and optimizing GPU usage.<br>
+                    • Secured a 15% improvement in model performance and a 25% reduction in computational resources, optimizing image generation and resource management.
+                </p>
+            </div>
+
+            <!-- House Price Prediction Project -->
+            <div class="bg-purple-100 p-5 shadow-md rounded-lg">
+                <h3 class="text-xl font-semibold text-purple-800">House Price Prediction</h3>
+                <p>
+                    • Designed a machine learning model to predict housing prices, implementing and evaluating linear regression and random forest algorithms in Python.<br>
+                    • The project involved comprehensive data exploration, preprocessing, feature engineering, and hyperparameter tuning.<br>
+                    • Attained 85% accuracy with the machine learning model, offering predictive insights for real estate investment and property valuation.
+                </p>
+            </div>
+
+            <!-- Breast Cancer Detection Project -->
+            <div class="bg-purple-100 p-5 shadow-md rounded-lg">
+                <h3 class="text-xl font-semibold text-purple-800">Breast Cancer Detection Using Machine Learning Classifier</h3>
+                <p>
+                    • Constructed a machine learning classifier for breast cancer detection, employing SVM, Logistic Regression, and Random Forest algorithms.<br>
+                    • Addressed data imbalances and model tuning for optimal performance. Employed multiple classifiers and parameter optimization techniques to enhance predictive accuracy.<br>
+                    • Improved accuracy by 30% over baseline models, effectively classifying malignant vs. benign tumors and aiding in early diagnosis.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-semibold mb-4 text-purple-800">Technical Skills</h2>
+        <ul class="list-disc list-inside bg-purple-100 p-5 shadow-md rounded-lg">
+            <li>Languages: C++, C, Python, JavaScript, TypeScript, Java, SQL</li>
+            <li>Technologies: React.js, Next.js, Tailwind CSS, MongoDB, Express.js, Node.js</li>
+        </ul>
+    </section>
+
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-semibold mb-4 text-purple-800">Achievements</h2>
+        <ul class="list-disc list-inside bg-purple-100 p-5 shadow-md rounded-lg">
+            <li>Chegg Expert - Supported over 500 students with a 95% satisfaction rate.</li>
+        </ul>
+    </section>
+
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-semibold mb-4 text-purple-800">Contact Me</h2>
+        <div class="bg-purple-100 p-5 shadow-md rounded-lg">
+            <p>If you would like to get in touch, feel free to reach out via email or connect with me on LinkedIn:</p>
+            <ul class="list-disc list-inside mt-4">
+                <li>Email: <a href="mailto:ms0614659@gmail.com" class="underline">ms0614659@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/mithilesh0307" class="underline">linkedin.com/in/mithilesh0307</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="bg-purple-800 text-white p-4 mt-10">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Mithilesh Kumar | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
